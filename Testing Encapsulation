@@ -1,0 +1,19 @@
+
+package ObjectOrientedProgram;
+
+
+public class EncapsulationTEST {
+    public static void main(String[] args) {
+        Encapsulation Z = new Encapsulation();
+        Z.setIdNo(486);
+        Z.setName("Sartaj"); 
+        Z.setBankBalance(78562);
+        
+        System.out.println(Z.getIdNo());
+        System.out.println(Z.getName());
+        System.out.println(Z.getBankBalance());
+        
+                
+    }
+    
+}
