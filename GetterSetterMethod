@@ -1,0 +1,37 @@
+
+package ObjectOrientedProgram;
+
+
+public class Encapsulation {
+    private int IdNo;
+    private String Name;
+    private double BankBalance;
+    
+    public void setIdNo (int I)
+    {
+        IdNo = I;
+    }
+    
+    public int getIdNo(){
+        return IdNo;
+    }
+    
+        public void setName (String Name)
+    {
+        this.Name = Name;
+    }
+    
+    public String getName(){
+        return Name;
+    }
+    
+        public void setBankBalance (double bb)
+    {
+        BankBalance = bb;
+    }
+    
+    public double getBankBalance(){
+        return BankBalance;
+    }
+    
+}
